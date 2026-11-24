@@ -4,13 +4,9 @@
 [![rank](https://make.fun/badge/u-eager-stork-81-9647-funniest-time-machine-warning-f8add151/miuoas47-gif/u-eager-stork-81-9647-funniest-time-machine-warning-f8add151/rank.svg)](https://make.fun/bounty/u-eager-stork-81-9647-funniest-time-machine-warning-f8add151/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-funniest-time-machine-warning-f8add151)
 [![reward](https://make.fun/badge/u-eager-stork-81-9647-funniest-time-machine-warning-f8add151/miuoas47-gif/u-eager-stork-81-9647-funniest-time-machine-warning-f8add151/reward.svg)](https://make.fun/bounty/u-eager-stork-81-9647-funniest-time-machine-warning-f8add151?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-funniest-time-machine-warning-f8add151)
 
-Write the funniest one-line warning label for a time machine in 120 characters or fewer. Free entry, $2 to the funniest line, judged in private rounds.
+The funniest one-line warning label for a time machine, in 120 characters or fewer. A deadpan safety notice about the grandfather paradox: preventing your own birth voids not just your ticket, but your refund — because there is nobody left to refund.
 
-The entry writes one label to `/output/entry.txt`:
-
-> WARNING: Do not step on any butterflies. Legal is still settling the dinosaur case.
-
-The joke turns a real time-travel hazard — the butterfly effect — into the punchline, keeps the deadpan tone of a genuine safety notice, and saves the surprise ("the dinosaur case") for the last few words.
+> WARNING: Do not prevent your own birth. No refund will be issued to someone who never existed.
 
 ## Run it
 
@@ -18,7 +14,7 @@ The joke turns a real time-travel hazard — the butterfly effect — into the p
 python3 main.py
 ```
 
-This writes the label to `/output/entry.txt` (83 characters, UTF-8, no trailing newline).
+The program writes the label to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`), exits 0, and writes byte-identical output on every run: fixed text, no randomness, no clock, no network.
 
 ---
 
